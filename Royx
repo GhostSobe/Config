@@ -1,14 +1,13 @@
-_G.M7Config = {
-    ["Main"] = "", -- Name player for pull heart
-    ["Type"] = "SanguineArt", -- SanguineArt , FarmHeart , HydraIsland
-    ["Member"] = {
-        "",
+_G.V4Config = {
+    ["Lock Tier"] = 1, -- Kick when tier ... set to 11 for not kick
+    ["Pull Lever"] = true, -- Auto Pull Lever
+    ["Reserver When no moon"] = true, -- Restart server when full moon end
+    ["Main"] = { -- account name to farm v4
+        "Ghost_Sobe"
     },
-    ["Skill"] = {
-        ["Z"] = true,
-        ["X"] = true,
-        ["C"] = true,
-        ["V"] = true
+    ["Helper"] = { -- the name of helper
+        "",
+        ""
     }
 }
 License = "RrN5Qs2WtY3clMEttYY7JJMXXgwLBGcm"
