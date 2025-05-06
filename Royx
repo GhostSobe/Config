@@ -1,14 +1,15 @@
 _G.Auto_Close_ui = true
-_G.KaitunMode = true
-getgenv().Config = {
-    ["Map"] = "Desert Temple",
-    ["Difficult"] = "Easy", --Insane , Nightmare
-    ["Mode"] = "Normal", -- Hardcore, Normal
-    ["Type"] = "Dungeon_Farm", -- Dungeon_Farm, Raid_Farm,
-    ["Class"] = "Warrior", -- Mage
-    ["Raid"] = "Goliath Raid", -- Goliath Raid or Hela Raid
-    ["Tier"] = 1, -- set as 1 to do inf raid require 1shot boss in 15 second 
-    ["TeleportSpeed"] = 0.25, -- default is 0.25
+_G.V4Config = {
+    ["Lock Tier"] = 1, -- Kick when tier ... set to 11 for not kick
+    ["Pull Lever"] = true, -- Auto Pull Lever
+    ["Reserver When no moon"] = true, -- Restart server when full moon end
+    ["Main"] = { -- account name to farm v4
+        ""
+    },
+    ["Helper"] = { -- the name of helper
+        "",
+        ""
+    }
 }
 License = "RrN5Qs2WtY3clMEttYY7JJMXXgwLBGcm"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Royxzr/loader/refs/heads/main/yayayaayayya.lua"))()
