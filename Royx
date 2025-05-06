@@ -1,15 +1,4 @@
-_G.V4Config = {
-    ["Lock Tier"] = 11, -- Kick when tier ... set to 11 for not kick
-    ["Pull Lever"] = true, -- Auto Pull Lever
-    ["Reserver When no moon"] = true, -- Restart server when full moon end
-    ["Main"] = { -- account name to farm v4
-        "Ghost_Sobe"
-    },
-    ["Helper"] = { -- the name of helper
-        "",
-        ""
-    }
-}
+_G.Auto_Close_ui = true
+_G.KaitunMode = true
 License = "RrN5Qs2WtY3clMEttYY7JJMXXgwLBGcm"
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Royxzr/loader/refs/heads/main/yayayaayayya.lua"))()
