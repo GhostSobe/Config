@@ -1,0 +1,30 @@
+script_key="BVzSNlBnOTRyOIxhZDFYgyrlkjIjASAS"; -- Enter PREMIUM KEY here
+oneclick=true;setting = {
+    ['Mode'] = "Challenge-Ranger", -- "Story-Gem", "Challenge", or "Challenge-Ranger" ( Challenge-Ranger = Fully )
+    ['Story-Gem'] = {
+        ['Main-Gem'] = 500, -- Main Gem for Summon and ETC
+        ['Farm Previous World'] = true, -- FarmPreviousWorld
+        ['Units First'] = {"Okarun:Evo", "Naruto", "Killua"}, -- EquipUnits is the first one
+        ['ZCity[10] Difficulty'] = "Nightmare",
+    },
+    ['Challenge'] = {
+        ['Enabled'] = true, -- Auto Join Challenge
+        ['Back To Lobby'] = true, -- Auto Join New Challenge
+        ['Ignore Worlds'] = {}, -- IgnoreWorlds Challenge
+        ['Acts'] = {"all"}, -- all ( Acts For Challenge )
+    },
+    ['Challenge-Ranger'] = {
+        ['Ranger World'] = {"OnePiece"}, -- Ranger worlds
+        ['Ranger Act'] = {1, 2, 3}, -- Ranger acts( 1 2 3 )
+        ['Start Ranger'] = true, -- Enable Ranger mode
+    },
+    ['Miscellaneous'] = {
+        ['Auto Sell'] = true, -- Auto sell
+        ['Auto Optimize'] = true, -- Auto optimize
+    },
+    ['Webhook'] = {
+        ['Enabled'] = true, -- Enable webhook
+        ['Url'] = "https://discord.com/api/webhooks/1372580053682225202/MXPqCso_n9cI-O3K2yOVVdjhajlQEFw3ianUAMSlJMjpLLQw7EYiNwS8dfYbtcyoFFEN" -- Webhook Url
+    }
+}
+loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
