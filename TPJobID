@@ -1,0 +1,4 @@
+local TeleportService = game:GetService("TeleportService")
+local placeId = 126884695634066
+local jobId = "336b27ca-45f6-4036-894f-6f5811404e4b"
+TeleportService:TeleportToPlaceInstance(placeId, jobId)
