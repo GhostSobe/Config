@@ -1,4 +1,4 @@
-script_key="BVzSNlBnOTRyOIxhZDFYgyrlkjIjASAS"; -- Enter PREMIUM KEY here
+script_key="gIRlXKyDThnMCwkOeyPIzoIdPIcyDDrv"; -- Enter PREMIUM KEY here
 oneclick=true;setting = {
     ['Mode'] = "Challenge-Ranger", -- "Story-Gem", "Challenge", or "Challenge-Ranger" ( Challenge-Ranger = Fully )
     ['Story-Gem'] = {
@@ -23,8 +23,8 @@ oneclick=true;setting = {
         ['Auto Optimize'] = true, -- Auto optimize
     },
     ['Webhook'] = {
-        ['Enabled'] = true, -- Enable webhook
-        ['Url'] = "https://discord.com/api/webhooks/1372580053682225202/MXPqCso_n9cI-O3K2yOVVdjhajlQEFw3ianUAMSlJMjpLLQw7EYiNwS8dfYbtcyoFFEN" -- Webhook Url
+        ['Enabled'] = false, -- Enable webhook
+        ['Url'] = "" -- Webhook Url
     }
 }
 loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
