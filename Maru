@@ -2,21 +2,15 @@ if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
 getgenv().Script_Mode = "Kaitun_Script"
 _G.Settings = {
     SeedsSetting = { -- เมล็ดที่จะให้ซื้อ
-        "Bamboo", --4,000
-        "Watermelon", --2,500
-        "Pumpkin", --3,000
-        "Daffodil", --1,000
-        "Mushroom", --150,000
-        "Cactus", 15,000
-        "Mango", --100K
+        "Bamboo",
+        "Carrot",
+        "Orange Tulip",
+        "Watermelon",
+        "Pumpkin",
+        "Daffodil",
+        "Mushroom",
         "Nightshade",
-        "Grape" 850K
-        "Pepper" --1M
-        "Cacao", --2.5M
-        "Beanstalk", --10M
-        "Ember Lily", --15M
-        "Sugar Apple", --20M
-        "Dragon Fruit", --50,000
+        "Beanstalk",
     },
     SprinklerSettings = { -- ตั้งค่าสำหรับวางสปิงเกอร์
         Limit = 2,
