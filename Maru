@@ -41,7 +41,7 @@ _G.Settings = {
         DestroyWhenMoney = 500000, -- ลบต้นไม้ตอนไหน
         SelectTrees = {"Strawberry", "Blueberry", "Corn", "Tomato"} -- ลบอะไรบ้าง
     },
-    Webhook = "", -- ส่งแจ้งเตือน
+    Webhook = "https://discord.com/api/webhooks/1384181265854496898/DiNmM_cVGiRMY0-yUslcEBgElIM2Krceq8lnsgR_DdYnWVVPl3LcH1Pkag9L5Y9qQsaV", -- ส่งแจ้งเตือน
     PetSettings = {
         Sell = { -- ขายอะไรบ้าง
             "Commom Egg",
