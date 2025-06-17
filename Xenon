@@ -1,0 +1,94 @@
+getgenv().Configurations = { 
+    ['Enabled'] = true,
+    
+    ['Seeds'] = { -- เลือกเมล็ดที่ต้องการจะปลูก (แนะนําว่าให้เอาแบบปลูกแล้วเก็บต้นมันหายจะได้ไม่แลคถ้าเอาแบบปลูกแล้วปลูกเลยพอมันมีหลายๆต้นอาจทําให้เกมส์แลค)
+        "Bamboo",
+        "Carrot",
+        "Orange Tulip",
+        "Watermelon",
+        "Pumpkin",
+        "Daffodil",
+        "Mushroom",
+        "Nightshade",
+        "Beanstalk",
+        "Dragon Fruit",
+        "Sugar Apple",
+        "Ember Lily",
+        "Beanstalk",
+        "Cacao",
+        "Pepper",
+        "Grape",
+        "Mango",
+    }, 
+
+    ['Farm Eggs'] = { -- เลือกไข่ที่จะฟักถ้ามีไข่มาจะซื้อให้ด้วย (ถ้าหากไม่รู้ชื่อให้ไปดูในสคริปเวอร์ชั่นปกติตรง Auto Place Egg ชื่อจะอยู่ใน Select Egg)
+        "Legendary Egg",
+        "Mythical Egg",
+        "Bug Egg",
+        "Bee Egg",
+    }, 
+
+    ['Equip Pets'] = { -- เลือกว่าจะเอาสัตว์อะไรบ้างลงไปเลี้ยงในฟาม (ถ้าหากไม่รู้ชื่อให้ไปดูในสคริปเวอร์ชั่นปกติตรง Auto Equip Pet ชื่อจะอยู่ใน Select Pet)
+        "Dog",
+        "Cat",
+        "Golden Lab",
+        "Bunny",
+        "Black Bunny",
+        "Deer",
+        "Dragonfly",
+        "Raccoon",
+    }, 
+
+    ['Auto Sell Pets'] = true; -- ขายสัตว์อัตโนมัต
+    ['Sell Pets'] = {}, -- เลือกว่าจะขายสัตว์อะไรบ้าง
+
+    ['Event Shop'] = { -- เลือกว่าจะซื้้ออะไรบ้างในร้าน Event
+        "Hive Fruit",
+        "Nectarine",
+        "Flower Seed Pack",
+        "Bee Egg",
+        "Honey Sprinkler"
+    }, 
+
+    ['Buy Gear'] = {  -- เลือกว่าจะซื่้ออะไรบ้างในร้าน Gear Shop
+        "Basic Sprinkler",
+        "Advanced Sprinkler",
+        "Master Sprinkler",
+        "Godly Sprinkler",
+    },
+
+    ['Sell Pet Min Count'] = 5, -- จํานวณสัตว์ขั้นตํ่าที่ต้องมีก่อนเริ่มขาย
+
+    ['Ugarde Pets'] = { -- สัตว์ที่จะใช้อัพเกรด (อาจจะใส่ตัวกากๆ) มันจะเอาสัตว์ในฟามไปอัพด้วยเมื่อเลี้ยงจนเลเวลถึง
+        "Dog",
+        "Cat",
+        "Golden Lab",
+        "Bunny",
+        "Black Bunny",
+        "Deer",
+    }, 
+
+    ['UgardePetSlot'] = true, -- อัพเกรดจํานวณสัตว์สูงสุดในฟาม
+    ['UpgradeEggSlot'] = true, -- อัพเกรดจํานวณการวางไข่สูงสุดในฟาม
+
+    ['Feed Pets'] = true, -- ให้อาหารสัตว์
+    ['Auto Event'] = true, -- ทํา event นํ้าผึ้งให้อัตโนัมต
+
+    ['Auto Favorit Event'] = true, -- ล็อกผลที่ติดบัพ event เพื่อเก็บเอาไว้ใส่ในเครื่อง
+    ['Open Seed Pack'] = true, -- เปิด seed pack อัตโนมัต
+
+    ['Event MoneyEnough'] = 100000, -- เริ่มทํา event หลังจากเงินมีมากกว่าเท่าไหร่ 
+
+    ['Enabled Collect Timer MoneyEnough'] = 100000, -- เมื่อมีเงินมากกว่าจํานวณที่ตั้งไว้ถึงใช้ตัวจับเวลาการเก็บเอาไว้ให้ผลมันติดบัพ
+    ['Collect Timer'] = 100, -- เก็บผักทุกๆกี่วินาที
+
+    ['Limit Plant'] = 500, -- จํานวณผักสูงสุดที่จะไม่ให้เกินในฟาม
+
+    ['Webhook Url'] = "https://discord.com/api/webhooks/1384181265854496898/DiNmM_cVGiRMY0-yUslcEBgElIM2Krceq8lnsgR_DdYnWVVPl3LcH1Pkag9L5Y9qQsaV", -- ลิ้ง webhook
+    ['Notify pets'] = { -- ถ้าได้สัตว์ตามซื่อเข้าตัวมามันจะแจ้ง
+        "Dragonfly",
+        "Raccoon"
+  },
+}
+getgenv().key = {11534,34196,16518,11816,53887,28053}
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua'))()
