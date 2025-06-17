@@ -84,7 +84,7 @@ getgenv().Configurations = {
 
     ['Limit Plant'] = 400, -- ให้เผื่อเหลือเฟือแต่ไม่เกินเยอะเพื่อกันแลค
 
-    ['Webhook Url'] = "https://discord.com/api/webhooks/1384181265854496898/DiNmM_cVGiRMY0-yUslcEBgElIM2Krceq8lnsgR_DdYnWVVPl3LcH1Pkag9L5Y9qQsaV",
+    ['Webhook Url'] = "",
 
     ['Notify pets'] = {
         "Dragonfly",
