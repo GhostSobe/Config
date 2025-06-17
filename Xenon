@@ -2,65 +2,100 @@ getgenv().Configurations = {
     ['Enabled'] = true,
 
     ['Seeds'] = {
-        "Carrot",
+        "Sugar Apple",
+        "Ember Lily",
+        "Nightshade",
+        "Dragon Fruit",
+        "Beanstalk",
+        "Mango",
+        "Cacao",
         "Pumpkin",
-        "Watermelon",
-        "Daffodil",
+        "Grape",
     }, 
 
     ['Farm Eggs'] = {
-        "Bug Egg", -- ถูกสุดในกลุ่ม
+        "Mythical Egg",
+        "Legendary Egg",
+        "Bee Egg",
+        "Bug Egg",
     }, 
 
     ['Equip Pets'] = {
-        "Black Bunny",
+        "Dragonfly",
+        "Disco Bee",
+        "Petal Bee",
+        "Queen Bee",
+        "Red Giant Ant",
+        "Raccoon",
+        "Praying Mantis",
         "Golden Lab",
+        "Polar Bear",
+        "Black Bunny",
     }, 
 
     ['Auto Sell Pets'] = true,
     ['Sell Pets'] = {
         "Dog",
         "Cat",
+        "Bunny",
+        "Deer",
+        "Black Bunny",
+        "Golden Lab",
     },
 
     ['Event Shop'] = {
-        "Bee Egg", -- ยังไม่ซื้อจนกว่าจะมีเงินพอ
+        "Hive Fruit",
+        "Nectarine",
+        "Flower Seed Pack",
+        "Bee Egg",
+        "Honey Sprinkler",
     }, 
 
     ['Buy Gear'] = {
+        "Godly Sprinkler",
+        "Master Sprinkler",
+        "Advanced Sprinkler",
         "Basic Sprinkler",
     },
 
-    ['Sell Pet Min Count'] = 5,
+    ['Sell Pet Min Count'] = 3,
 
     ['Ugarde Pets'] = {
         "Dog",
         "Cat",
+        "Bunny",
+        "Deer",
         "Black Bunny",
+        "Golden Lab",
     }, 
 
     ['UgardePetSlot'] = true,
     ['UpgradeEggSlot'] = true,
 
     ['Feed Pets'] = true,
-    ['Auto Event'] = false, -- ปิดไว้ก่อน รอเงินพอ
-    ['Auto Favorit Event'] = false, -- ปิดไว้ก่อน
+    ['Auto Event'] = true,
+
+    ['Auto Favorit Event'] = true,
     ['Open Seed Pack'] = true,
 
-    ['Event MoneyEnough'] = 5000,
-    ['Enabled Collect Timer MoneyEnough'] = 5000,
-    ['Collect Timer'] = 120,
+    ['Event MoneyEnough'] = 250000,
+    ['Enabled Collect Timer MoneyEnough'] = 200000,
+    ['Collect Timer'] = 80,
 
-    ['Limit Plant'] = 200,
+    ['Limit Plant'] = 400, -- ให้เผื่อเหลือเฟือแต่ไม่เกินเยอะเพื่อกันแลค
 
-    ['Webhook Url'] = "https://discord.com/api/webhooks/1384181265854496898/DiNmM_cVGiRMY0-yUslcEBgElIM2Krceq8lnsgR_DdYnWVVPl3LcH1Pkag9L5Y9qQsaV", -- เปลี่ยนตามของคุณ
+    ['Webhook Url'] = "https://discord.com/api/webhooks/1384181265854496898/DiNmM_cVGiRMY0-yUslcEBgElIM2Krceq8lnsgR_DdYnWVVPl3LcH1Pkag9L5Y9qQsaV",
+
     ['Notify pets'] = {
         "Dragonfly",
         "Disco Bee",
         "Petal Bee",
         "Queen Bee",
+        "Red Giant Ant",
         "Raccoon",
+        "Golden Lab",
     },
 }
+
 getgenv().key = {11534,34196,16518,11816,53887,28053}
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua'))()
