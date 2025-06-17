@@ -18,7 +18,7 @@ _G.Settings = {
         "Cacao",
         "Pepper",
         "Grape",
-        "Mango",
+        "Mango"
     },
     SprinklerSettings = { -- ตั้งค่าสำหรับวางสปิงเกอร์
         Limit = 2,
