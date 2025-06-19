@@ -1,0 +1,69 @@
+if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
+getgenv().Script_Mode = "Kaitun_Script"
+_G.Settings = {
+    SeedsSetting = { -- เมล็ดที่จะให้ซื้อ
+        "Sugar Apple",
+        "Ember Lily",
+        "Beanstalk",
+        "Cacao",
+        "Pepper",
+        "Mushroom",
+        "Grape",
+        "Mango",
+        "Dragon Fruit",
+        "Cactus",
+        "Coconut"
+    },
+    SprinklerSettings = { -- ตั้งค่าสำหรับวางสปิงเกอร์
+        Limit = 2,
+        StartBuyWhen = 10000000, -- เริ่มซื้อตอนไหน
+        SelectSprinklers = { -- ซื้ออะไรบ้าง
+            "Basic Sprinkler",
+            "Advanced Sprinkler",
+            "Master Sprinkler",
+            "Godly Sprinkler",
+            "Chocolate Sprinkler"
+        }
+    },
+    EggSettings = {
+        StartBuyEggWhen = 150000, -- เริ่มซื้อตอนไหน
+        SelectEggs = { -- ซื้ออะไรบ้าง
+            "Legendary Egg",
+            "Mythical Egg",
+            "Bug Egg"
+        },
+    },
+    SelectHoneyStocks = { -- ซื้อของอีเว้นท์
+        "Hive Fruit",
+        "Nectarine",
+        "Flower Seed Pack",
+        "Bee Egg",
+        "Honey Sprinkler"
+    },
+    DestroySettings = { 
+        DestroyWhenMoney = 500000, -- ลบต้นไม้ตอนไหน
+        SelectTrees = {"Strawberry", "Blueberry", "Corn", "Tomato"} -- ลบอะไรบ้าง
+    },
+    Webhook = "https://discord.com/api/webhooks/1384181265854496898/DiNmM_cVGiRMY0-yUslcEBgElIM2Krceq8lnsgR_DdYnWVVPl3LcH1Pkag9L5Y9qQsaV", -- ส่งแจ้งเตือน
+    PetSettings = {
+        Sell = { -- ขายอะไรบ้าง
+            "Commom Egg",
+            "Uncommon Egg"
+        },
+        UpgradeSlots = { -- เอาระดับไหนไปส่งเพิ่มสล็อต
+            "Commom Egg",
+            "Uncommon Egg"
+        },
+        Equip = { -- วางสัตว์อะไรบ้าง
+            "Legendary Egg",
+            "Mythical Egg",
+            "Bug Egg"
+        }
+    },
+    UpgradePetSlots = 2, -- อัพสล็อตถึงระดับไหน
+    SendHoneyMachineQuests = true -- ทำเควสอีเว้นท์
+}
+getgenv().Key = "MARU-SC3UI-M6UG-8HMZ-OZ9AL-GGXMW"
+getgenv().id = "754329983861784588"
+getgenv().Script_Mode = "Kaitun_Script"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
